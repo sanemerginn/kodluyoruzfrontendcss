@@ -1,0 +1,101 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #fff;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    font-size: 35px;
+    color: red;
+}
+
+nav {
+    background-color: #354f52;
+    font-size: 20px;
+    color: #fff;
+    padding: 10px;
+    margin: 0 0 20px 0;
+}
+nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    justify-content: space-around;
+}
+nav li {
+    margin-right: 15px;
+    text-align: center;
+    display: inline-block;
+}
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    padding: 10px 20px;
+    border-radius: 3px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.fa-solid, .fas {
+    font-weight: 900;
+}
+.fa-classic, .fa-regular, .fa-solid, .far, .fas {
+    font-family: "Font Awesome 6 Free";
+}
+.fa, .fa-brands, .fa-classic, .fa-regular, .fa-sharp, .fa-solid, .fab, .far, .fas {
+    -webkit-font-smoothing: antialiased;
+    display: var(--fa-display,inline-block);
+    font-style: normal;
+    font-variant: normal;
+    line-height: 1;
+    text-rendering: auto;
+}
+.fa-home-alt:before, .fa-home-lg-alt:before, .fa-home:before, .fa-house:before {
+    content: "\f015";
+}
+
+h2 {
+    color: #000;
+    font-size: 30px;
+    text-align: center;
+    margin: 30px 0;
+}
+.list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.page-content {
+    margin-bottom: 80px;
+}
+footer {
+    color: #fff;
+    font-size: 15px;
+    background-color: #354f52;
+    padding: 1px;
+}
+h3 {
+    color: red;
+    font-size: 20px;
+}
+.logo {
+    width: auto;
+    height: 250px;
+    margin: 0 auto;
+    display: block;
+}
+.products {
+    text-align: center;
+}
+
+.product-item {
+    margin-top: 50px;
+}
+.products img {
+    height: 300px;
+}
